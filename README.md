@@ -7,7 +7,7 @@ Reinforcement learning for robot motion control: guides to install the simulator
 The [installations](installations) folder contains the guides to install the simulators on the different operating systems:
 
 - Isaac Lab: [Linux](installations/isaaclab_linux.md), [Windows](installations/isaaclab_windows.md), [macOS](installations/isaaclab_macos.md)
-- mjlab: [Linux](installations/mjlab_linux.md), [Windows](installations/mjlab_windows.md), [macOS](installations/mjlab_macos.md)
+- Mujoco Lab: [Linux](installations/mjlab_linux.md), [Windows](installations/mjlab_windows.md), [macOS](installations/mjlab_macos.md)
 
 ## Projects
 
