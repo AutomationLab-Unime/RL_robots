@@ -52,12 +52,3 @@ Training on an NVIDIA GPU with the Newton physics engine:
 uv run isaaclab train --rl_library rsl_rl --task Isaac-Cartpole-Direct physics=newton_mjwarp
 ```
 
-Training with Isaac Sim, which needs a supported RTX GPU and 32 GB of RAM. At the first run, accept the NVIDIA license:
-
-```bash
-uv run --extra all --extra isaacsim --extra video isaaclab train --rl_library rsl_rl --task Isaac-Cartpole-Direct physics=isaacsim_physx
-```
-
-The results are saved in `logs/rsl_rl/<experiment-name>/<date-and-time>/`.
-
-More about Isaac Sim, the play of a trained model and the videos: [IsaacLab.md](IsaacLab.md)
