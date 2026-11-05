@@ -52,6 +52,8 @@ The first start is slower, because the kernels are compiled. Warp prints a warni
 
 Training on GPU on Windows is not covered by the mjlab documentation (it asks for Linux).
 
+If you have an NVIDIA GPU you can try to make it visible: do not run `$env:CUDA_VISIBLE_DEVICES = ""` and remove `--gpu-ids None` from the training command (not tested).
+
 The results are saved in `logs\rsl_rl\cartpole\<date-and-time>\`. The training curves can be visualized with:
 
 ```powershell

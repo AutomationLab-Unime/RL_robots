@@ -44,6 +44,8 @@ Training on CPU with the Newton physics engine, without Isaac Sim (3 iterations 
 uv run isaaclab train --rl_library rsl_rl --task Isaac-Cartpole --device cpu --num_envs 64 --max_iterations 3 physics=newton_mjwarp
 ```
 
+If you have an NVIDIA GPU, change the commands above to make it visible: remove `--device cpu`.
+
 Training on an NVIDIA GPU with the Newton physics engine:
 
 ```bash

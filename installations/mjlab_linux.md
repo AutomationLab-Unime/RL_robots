@@ -50,6 +50,8 @@ CUDA_VISIBLE_DEVICES="" uv run train Mjlab-Cartpole-Balance --gpu-ids None --env
 
 `--agent.logger tensorboard` is needed: otherwise mjlab asks for a Weights & Biases account.
 
+If you have an NVIDIA GPU, change the command above to make it visible: remove `CUDA_VISIBLE_DEVICES=""` and `--gpu-ids None`.
+
 Training on GPU needs an NVIDIA GPU (driver 580 or newer):
 
 ```bash

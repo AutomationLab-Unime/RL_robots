@@ -40,7 +40,7 @@ Training on CPU with the Newton physics engine, without Isaac Sim (3 iterations 
 uv run isaaclab train --rl_library rsl_rl --task Isaac-Cartpole --device cpu --num_envs 64 --max_iterations 3 physics=newton_mjwarp
 ```
 
-With an NVIDIA GPU (driver 595.97 or newer) remove `--device cpu`. The Isaac Sim extra (`--extra isaacsim`) needs a supported RTX GPU and 32 GB of RAM.
+With an NVIDIA GPU (driver 595.97 or newer) remove `--device cpu` (also in the play command below).
 
 Play the trained model (it loads the last checkpoint). The `viser` extra, the viewer that runs in the browser, is downloaded the first time:
 
