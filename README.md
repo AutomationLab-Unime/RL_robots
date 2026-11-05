@@ -38,15 +38,6 @@ On macOS, install the Apple command line tools, which contain Git (not tested):
 xcode-select --install
 ```
 
-Clone this repository and enter the folder:
-
-```bash
-git clone https://github.com/GabrieleRinaldi/RL_robots.git
-```
-
-```bash
-cd RL_robots
-```
 
 ## Simulators
 
