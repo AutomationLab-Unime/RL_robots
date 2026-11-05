@@ -4,6 +4,22 @@ This project uses Isaac Lab 3.0.
 
 The releases of Isaac Lab are listed here: https://github.com/isaac-sim/IsaacLab/releases
 
+Install Git (skip this step if `git --version` already works). On Debian and Ubuntu:
+
+```bash
+sudo apt update
+```
+
+```bash
+sudo apt install git
+```
+
+On Fedora:
+
+```bash
+sudo dnf install git
+```
+
 Install uv (it manages Python and the dependencies), then open a new terminal:
 
 ```bash

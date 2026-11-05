@@ -2,6 +2,52 @@
 
 Reinforcement learning for robot motion control: guides to install the simulators, and one branch for each project.
 
+## Requirements
+
+Git is needed to clone this repository and the simulators. Check if it is already installed:
+
+```bash
+git --version
+```
+
+On Windows, install it from PowerShell, then close and reopen the terminal:
+
+```powershell
+winget install --id Git.Git -e --source winget
+```
+
+On Linux (Debian and Ubuntu):
+
+```bash
+sudo apt update
+```
+
+```bash
+sudo apt install git
+```
+
+On Linux (Fedora):
+
+```bash
+sudo dnf install git
+```
+
+On macOS, install the Apple command line tools, which contain Git (not tested):
+
+```bash
+xcode-select --install
+```
+
+Clone this repository and enter the folder:
+
+```bash
+git clone https://github.com/GabrieleRinaldi/RL_robots.git
+```
+
+```bash
+cd RL_robots
+```
+
 ## Simulators
 
 The [installations](installations) folder contains the guides to install the simulators on the different operating systems:

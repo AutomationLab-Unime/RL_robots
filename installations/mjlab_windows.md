@@ -2,7 +2,13 @@
 
 The releases of mjlab are listed here: https://github.com/mujocolab/mjlab/releases
 
-Install [Git for Windows](https://git-scm.com), then install uv from PowerShell and open a new terminal:
+Install Git from PowerShell (skip this step if `git --version` already works):
+
+```powershell
+winget install --id Git.Git -e --source winget
+```
+
+Install uv, then open a new terminal:
 
 ```powershell
 powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"

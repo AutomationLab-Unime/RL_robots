@@ -10,13 +10,19 @@ Open PowerShell **as administrator** and enable the long paths (only once):
 New-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem" -Name "LongPathsEnabled" -Value 1 -PropertyType DWORD -Force
 ```
 
-Open a new **Command Prompt** (not PowerShell) and install uv:
+Open a new **Command Prompt** (not PowerShell) and install Git (skip this step if `git --version` already works):
+
+```bat
+winget install --id Git.Git -e --source winget
+```
+
+Install uv:
 
 ```bat
 powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
 ```
 
-Close the Command Prompt and open a new one. Clone Isaac Lab (it needs [Git for Windows](https://git-scm.com)):
+Close the Command Prompt and open a new one. Clone Isaac Lab:
 
 ```bat
 git clone https://github.com/isaac-sim/IsaacLab.git --branch main
